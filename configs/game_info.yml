@@ -265,6 +265,22 @@ games:
             - "CustomControlMap.txt"
             - "f4se_1_11_191.dll"
             - "f4se_loader.exe"
+      - version: "0.7.9"
+        runtime:
+          steam:
+            - "1.11.240"
+        download:
+          checksum: 48677acc460d8dca0f2f6303b0ef7fe16bdb8a97bdc37c6ffb96ec604fec1a48
+          nexus:
+            mod: 42147
+            file: 407709
+        file_whitelist:
+          subdirectory: f4se_0_07_09
+          paths:
+            - "Data"
+            - "CustomControlMap.txt"
+            - "f4se_1_11_240.dll"
+            - "f4se_loader.exe"
 
   fallout4_vr:
     display_name: 'Fallout 4 VR'
